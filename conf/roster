@@ -7,3 +7,8 @@
 #web2:
 #  host: 192.168.42.2
 
+#example_server1:             # The ID used for minion
+#  host: server1.example.com  # The IP addr or DNS hostname
+#  user: root                 # Remote executions will be executed as user fred
+#  passwd: password           # The password to use for login, if omitted, keys are used
+#  sudo: False                # Whether to sudo to root, not enabled by default
